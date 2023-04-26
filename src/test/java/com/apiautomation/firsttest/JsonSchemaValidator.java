@@ -19,7 +19,7 @@ public class JsonSchemaValidator {
  	get("/users?page=2").
  then().    
     assertThat().body(matchesJsonSchemaInClasspath("schema.json")).
-    statusCode(200).
+    statusCode(201).
  	body("data[4].first_name", equalTo("George"));
  	
   }
