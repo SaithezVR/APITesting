@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-25T12:05:46 IST" name="Default suite" finished-at="2023-04-25T12:05:49 IST" duration-ms="3575">
+  <suite started-at="2023-04-26T15:25:58 IST" name="Default suite" finished-at="2023-04-26T15:26:04 IST" duration-ms="5888">
     <groups>
     </groups>
-    <test started-at="2023-04-25T12:05:46 IST" name="Default test" finished-at="2023-04-25T12:05:49 IST" duration-ms="3575">
-      <class name="com.apiautomation.firsttest.FirstApiTest">
-        <test-method signature="testPost()[pri:0, instance:com.apiautomation.firsttest.FirstApiTest@12aba8be]" started-at="2023-04-25T12:05:46 IST" name="testPost" finished-at="2023-04-25T12:05:49 IST" duration-ms="3456" status="PASS">
+    <test started-at="2023-04-26T15:25:58 IST" name="Default test" finished-at="2023-04-26T15:26:04 IST" duration-ms="5888">
+      <class name="com.apiautomation.firsttest.JsonSchemaValidator">
+        <test-method signature="testGet()[pri:0, instance:com.apiautomation.firsttest.JsonSchemaValidator@3527942a]" started-at="2023-04-26T15:25:58 IST" name="testGet" finished-at="2023-04-26T15:26:04 IST" duration-ms="5780" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPost -->
-      </class> <!-- com.apiautomation.firsttest.FirstApiTest -->
+        </test-method> <!-- testGet -->
+      </class> <!-- com.apiautomation.firsttest.JsonSchemaValidator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
